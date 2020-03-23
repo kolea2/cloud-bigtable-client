@@ -119,6 +119,8 @@ limitations under the License.
             <requireUpperBoundDeps>
               <excludes>
                 <exclude>com.google.guava:guava</exclude>
+                <!-- hbase-client is pulling in hadoop-auth 2.8.5 while hadoop-common pulls in 2.10.0 -->
+                <exclude>org.apache.hadoop:hadoop-auth</exclude>
               </excludes>
             </requireUpperBoundDeps>
           </rules>
