@@ -496,13 +496,6 @@ this is not used directly, but upgrading due to transitive vulnerabilities in ol
           </usedDependencies>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-enforcer-plugin</artifactId>
-        <configuration>
-          <skip>true</skip>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
 </project>
